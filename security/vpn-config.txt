@@ -6,7 +6,7 @@ crypto isakmp policy 10
  group 2
  lifetime 86400
 
-crypto isakmp key CGCVPN address <BRANCH_PUBLIC_IP>
+crypto isakmp key XYZVPN address <BRANCH_PUBLIC_IP>
 
 crypto ipsec transform-set CGC-SET esp-aes esp-sha-hmac
 
