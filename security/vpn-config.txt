@@ -1,0 +1,16 @@
+! Site-to-Site VPN Example
+crypto isakmp policy 10
+ encr aes
+ hash sha
+ authentication pre-share
+ group 2
+ lifetime 86400
+
+crypto isakmp key CGCVPN address <BRANCH_PUBLIC_IP>
+
+crypto ipsec transform-set CGC-SET esp-aes esp-sha-hmac
+
+crypto map CGC-VPN 10 ipsec-isakmp
+ set peer <BRANCH_PUBLIC_IP>
+ set transform-set CGC-SET
+ match address 110
