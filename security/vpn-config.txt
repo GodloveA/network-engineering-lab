@@ -8,7 +8,7 @@ crypto isakmp policy 10
 
 crypto isakmp key XYZVPN address <BRANCH_PUBLIC_IP>
 
-crypto ipsec transform-set CGC-SET esp-aes esp-sha-hmac
+crypto ipsec transform-set XYZ-SET esp-aes esp-sha-hmac
 
 crypto map CGC-VPN 10 ipsec-isakmp
  set peer <BRANCH_PUBLIC_IP>
