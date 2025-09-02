@@ -1,4 +1,3 @@
-# network-engineering-lab
 # Network Engineering Lab
 
 This project is a hands-on simulation of real-world network engineering tasks, built to showcase skills in **network design, configuration, monitoring, and automation**.  
