@@ -1,7 +1,7 @@
 # Network Design
 
 ## 1. Topology
-A small enterprise network simulating CGC Technologies office.
+A small enterprise network simulating a standard enterprise office setup.
 
 - **HQ (Silver Spring, MD)**
   - Core Router
