@@ -12,5 +12,5 @@ crypto ipsec transform-set CGC-SET esp-aes esp-sha-hmac
 
 crypto map CGC-VPN 10 ipsec-isakmp
  set peer <BRANCH_PUBLIC_IP>
- set transform-set CGC-SET
+ set transform-set XYZ-SET
  match address 110
